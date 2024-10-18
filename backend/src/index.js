@@ -31,6 +31,8 @@ app.get('/files', async (req, res) => {
   try {
     const objects = await minioClient.listObjects('devtest', '', true);
     const files = [];
+    console.log('llllXXXXXXXXXXX 66666');
+    
     for await (const obj of objects) {
       files.push(obj.name);
     }

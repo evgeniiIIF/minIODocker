@@ -34,3 +34,7 @@ services:
     depends_on:
       - backend
     command: npm start  # Добавим команду для запуска в режиме разработки
+
+# Запуск
+# Открыть DockerDesktop и запустить контейнер
+# Открыть Frontend по ссылке из DockerDesktop
